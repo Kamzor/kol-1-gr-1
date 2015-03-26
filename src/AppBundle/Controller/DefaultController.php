@@ -36,6 +36,15 @@ class DefaultController extends Controller
     /* E */
 
     /* F */
+    
+    
+    /**
+     * @Route("/Face.html", name="Face")
+     */
+    public function FaceAction()
+    {
+        return $this->render('default/Face.html.twig');
+    }
 
     /* G */
 
